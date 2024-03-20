@@ -1,0 +1,173 @@
+/*Navbar start*/
+.navbar{
+    padding:30px;
+    transition:2s;
+}
+.navbar.scroll{
+    background:purple;
+    
+}
+.navbar-brand{
+    font-weight:bold;
+    font-style:italic;
+    padding-left: 150px;
+    font-size:40px;
+    text-transform: capitalize;
+    color: aliceblue !important;
+}
+.navbar-nav{
+padding-left: 300px;
+}
+.nav-link{
+    font-weight: bold;
+    font-style:italic;
+    color: yellow !important;
+    margin-left:5px;
+    transition:0.6s;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+.nav-link:hover{
+    text-decoration:underline;
+transform: translatey(-20px);
+background-color:red; /* Change to your desired hover background color */
+/* color: purple;  */
+box-shadow: 0 0 10px 5px rgba(219, 202, 52, 0.7); /* Adding glow effect on hover */
+
+}
+.header{
+    margin:0;
+    padding:0;
+}
+.header .img-parent{
+    position: relative;
+}
+.header img{
+    height: 100vh;
+    width:100%;
+}
+.header .img-overlay{
+ position:absolute;
+ top:0;
+ left:0;
+    height: 100%;
+    width:100%;
+    background-color: black;
+    z-index: 1;
+    opacity:0.4;
+}
+.header .img-content{
+ position: absolute;
+ top:50%; 
+ left:50%;
+ transform:translate(-50%,-50%);
+ z-index:2;  
+ color: white !important;
+ text-align: center!important;
+ justify-content:center!important ;
+}
+.header .img-content button{
+    font :optional;
+    font-weight: bold;
+    font-style:italic ;
+    font-size: 20px;
+    color:yellow;
+    background: rgb(32, 31, 31);
+    margin-bottom: 30px !important;
+    border-radius: 8px;
+}
+.header .img-content button:hover{
+    text-decoration:underline;
+    transform: translatey(-20px);
+    background-color:red; /* Change to your desired hover background color */
+    /* color: purple;  */
+    box-shadow: 0 0 10px 5px rgba(219, 202, 52, 0.7); /* Adding glow effect on hover */
+    
+}
+.header .img-content span{
+    font-weight: 500;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 0.2px;
+}
+/*EVENT SECTION START*/
+.events{
+    padding-bottom: 30px;
+    color:yellow;
+    font-size: 48px;
+    background-color:rgb(45, 43, 43);
+}
+.events:hover{
+    text-decoration:underline;
+    transform: translatey(-20px);
+ /* Change to your desired hover background color */
+    /* color: purple;  */
+    box-shadow: 0 0 10px 5px rgba(219, 202, 52, 0.7); 
+}
+.event{
+    margin: 200px auto;
+}
+.event-content{
+    box-shadow: 10px 10px 10px -10px rgba(0,0,0,0.3),inset 10px 10px 10px -10px rgba(0,0,0,0.5);
+   padding: 10px;
+   cursor: pointer;
+   margin-top:-70px!important;
+   margin-left: 20px!important;
+   position: absolute;
+   background:#fff!important;
+
+}
+.event-content h4{
+    font-weight: bold;
+    font-style:italic;
+    font-size:20px;
+    margin-bottom:5px;
+
+}
+.event-content span{
+    font-style:italic;
+    font-size: 15px;
+}
+.event-content a{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px!important;
+
+}
+.event img{
+    transition:0.6s;
+}
+.event img:hover{
+    transform:scale(1.1);
+    cursor:pointer;
+}
+.event .col-sm-5{
+margin-bottom: 200px!important;
+}
+
+
+/*Footer*/
+footer{
+    /* margin:200px auto; */
+    
+    background-color:rgb(45, 43, 43);
+color:white;
+    padding:150px;
+
+}
+
+footer a{
+    font-weight: bold;
+    color:yellow!important;
+    /* font-style:italic; */
+    font-size: 12px;
+}
+footer input{
+    margin:20px auto!important;
+    
+}
+.footerbtn
+{
+    box-shadow: 0 0 10px 5px rgba(219, 202, 52, 0.7); 
+
+}
